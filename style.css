@@ -53,8 +53,9 @@ hr{
 
 .content{
     display: flex;
-    justify-content: space-between;
+    
     margin: 3px;
+    width: 100%;
 }
 .left-div{
     color: teal;
@@ -64,7 +65,7 @@ hr{
 .right-div{
     width: 70%;
     display: flex;
-    justify-content:flex;
+    justify-content:flex-end;
    
 }
 
@@ -98,3 +99,35 @@ hr{
 .msc{
     padding: 50px;
 }
+.award{
+    display: flex;
+    padding: 65px;
+}
+.text{
+    padding: 15px;
+}
+#reference{
+    display: flex;
+}
+.ref{
+    padding: 120px;
+}
+.saint{
+    padding: 40px;
+}
+.roman2{
+    background-color: black;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px;
+}
+.a{
+    text-decoration: none;
+    color: chocolate;
+
+}
+.a:hover{
+    text-decoration: underline;
+}
+
