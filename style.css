@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+    font-family: "Trirong", serif;
+}
+.container{
+    max-width:1000px;
+    background-color: aqua;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+.imgg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#profile-image{
+    width: 80px;
+    height: 100px;
+    border: 3px solid white;
+    border-radius:50%;
+    display: flex;
+}
+.header-bio{
+    padding: 20px;
+}
+.remove{
+    text-decoration: none;
+}
+.header-contact{
+    color:teal;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    text-decoration: underline ;
+    color: tomato;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin: 3px;
+}
+.left-div{
+    color: teal;
+    font-weight: bold;
+    width: 30%;
+}
+.right-div{
+    width: 70%;
+    display: flex;
+    justify-content:flex;
+   
+}
+
+.hr{
+    border: solid;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+
+
+}
+#work-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 3px;
+    padding: 50px;
+}
+.work{
+    align-items: center;
+    padding: 50px;
+}
+#education{
+    display: flex;
+}
+.sundarban{
+    padding: 50px;
+}
+.edu{
+    padding: 80px;
+}
+.msc{
+    padding: 50px;
+}
